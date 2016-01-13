@@ -1,0 +1,589 @@
+2016-01-13 03:14:36 Notice: Notice (8): Undefined variable: subject in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 175]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 175
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:14:36 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 176]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 176
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:17:15 Notice: Notice (8): Undefined variable: subject in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 175]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 175
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:17:15 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:17:46 Notice: Notice (8): Undefined variable: subject in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 175]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 175
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:17:46 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:17:56 Notice: Notice (8): Undefined variable: subject in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 175]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 175
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:17:56 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:20:00 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:22:53 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:23:29 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:32:22 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:32:22 Notice: Notice (8): Undefined variable: searchterm in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 187]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 187
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:32:25 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:32:25 Notice: Notice (8): Undefined variable: searchterm in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 187]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 187
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:33:11 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:33:11 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 181]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 181
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:33:11 Notice: Notice (8): Undefined variable: searchterm in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 188]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 188
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:33:45 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 181]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 181
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:33:45 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 182]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 182
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:33:45 Notice: Notice (8): Undefined variable: searchterm in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 189]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 189
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:34:07 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 181]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 181
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:34:07 Notice: Notice (8): Undefined variable: buffer in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 182]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 182
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:34:07 Notice: Notice (8): Undefined variable: searchterm in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 189]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 189
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:52:27 Notice: Notice (8): Undefined offset: 0 in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:54:40 Notice: Notice (8): Undefined offset: 0 in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 03:55:25 Notice: Notice (8): Array to string conversion in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:04:16 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 178]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 178
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:05:31 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 179]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 179
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:06:17 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 179]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 179
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:09:33 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 179]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 179
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:10:06 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 179]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 179
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:12:36 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 178]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 178
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:13:55 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:13:58 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:16:41 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:18:24 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 04:18:26 Notice: Notice (8): Undefined variable: match in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 09:27:21 Notice: Notice (8): Undefined offset: 1 in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 09:27:21 Notice: Notice (8): Undefined offset: 1 in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 09:27:55 Notice: Notice (8): Undefined offset: 1 in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 177]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 177
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 09:27:55 Notice: Notice (8): Undefined offset: 1 in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 180]
+Trace:
+IndexController::read_html() - APP/Controller/IndexController.php, line 180
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 16:48:59 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 16:49:01 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 16:56:47 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 16:56:52 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 16:59:04 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 16:59:04 Notice: Notice (8): Use of undefined constant TYPE_OM - assumed 'TYPE_OM' in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 148]
+Trace:
+IndexController::create_onlyminerals() - APP/Controller/IndexController.php, line 148
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 16:59:05 Notice: Notice (8): Use of undefined constant TYPE_OM - assumed 'TYPE_OM' in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 258]
+Trace:
+IndexController::generate_html() - APP/Controller/IndexController.php, line 258
+IndexController::create_onlyminerals() - APP/Controller/IndexController.php, line 148
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:02:09 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:02:14 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:03:46 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:03:47 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:08:18 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:08:20 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:08:21 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:11:42 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:11:45 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:11:46 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
+2016-01-13 17:11:47 Notice: Notice (8): Constant TYPE_YD already defined in [/home/u932230167/public_html/mailtemplate/app/Controller/IndexController.php, line 4]
+Trace:
+define - [internal], line ??
+include - APP/Controller/IndexController.php, line 4
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE/Cake/Routing/Dispatcher.php, line 266
+Dispatcher::_getController() - CORE/Cake/Routing/Dispatcher.php, line 235
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 158
+[main] - APP/webroot/index.php, line 118
+
