@@ -43,6 +43,7 @@
 
 <!-- 保存用タイトル・配信日時など -->
 <section>
+    <label id="msg" style="color: blue; text-align: center"></label>
     <p>
         <label>
             <strong>保存用タイトル</strong>
@@ -236,7 +237,7 @@
             <p>
                 <label>
                     <strong>HiDPIサイズ</strong>
-                    <input class="image_social_large" type="file">
+                    <input class="image_social_large" type="file" data-rand="0">
                     <input name="mineral[social][0][image_temp_large]" type="hidden">
                 </label>
             </p>
@@ -275,21 +276,21 @@
 
 <!-- 送信ボタンなど -->
 <div id="submit-btn">
-    <input type="submit" value="プレビュー">
-    <input type="submit" value="保存">
+    <input type="button" value="プレビュー">
+    <input type="button" value="保存" id="draft">
     <input type="submit" value="HTML生成">
 </div>
 
 <!-- 内容クリア・削除 -->
 <div id="del-btn">
     <input type="reset" value="内容クリア">
-    <input type="submit" value="削除">
+    <a href="/onlyminerals"><input type="button" value="削除"></a>
 </div>
 
 </form>
 
 <!-- トップページへ戻る -->
-<p id="btn-return"><a  href="" onclick="window.history.go(-1); return false;" title="トップページへ戻る">トップページへ戻る</a></p>
+<p id="btn-return"><a href="#" onclick="window.history.go(-1); return false;" title="トップページへ戻る">トップページへ戻る</a></p>
 
 </article>
 <script type="text/javascript">
@@ -374,6 +375,18 @@
                 FR.readAsDataURL(this.files[0]);
             }
         });
+
+        $(document).on('click','.image_social_large',function(){
+            var rand = $(this).data('rand');
+            if ( this.files && this.files[0] ) {
+                var FR = new FileReader();
+                FR.onload = function(e) {
+                    $('input[name="mineral[social]['+rand+'][image_temp_large]"]').val(e.target.result );
+                };
+                FR.readAsDataURL(this.files[0]);
+            }
+        });
+
         $(document).on('click','.remove_link',function(){
             $(this).closest('fieldset').remove();
         });
@@ -430,7 +443,7 @@
                 html+= '<label>画像（通常サイズ 横1200px x 縦154px、HiDPIサイズ　横2400px x 縦308px)</label>';
                 html+= '<p><label><strong>通常サイズ</strong><input class="image_social" type="file" data-rand="'+real_number+'">';
                 html+= '<input type="hidden" name="mineral[social]['+real_number+'][image_temp]" value="">';
-                html+= '</label></p><p><label><strong>HiDPIサイズ</strong><input class="image_social_large" type="file">';
+                html+= '</label></p><p><label><strong>HiDPIサイズ</strong><input data-rand="'+real_number+'" class="image_social_large" type="file">';
                 html+= '<input name="mineral[social]['+real_number+'][image_temp_large]" type="hidden"> </label>';
                 html+= '</p><p><label><strong>リンク先</strong><input name="mineral[social]['+real_number+'][link]" type="url" placeholder="http://hogehoge.co.jp/">';
                 html+= '</label></p></fieldset>';
@@ -466,6 +479,25 @@
 
                 $(this).parent().before(html);
             }
-        })
+        });
+
+        // event save draft html
+        $('#draft').click(function(){
+            if ($('form').valid()){
+                var data = $('form').serialize();
+                $.ajax({
+                    url: 'index/save_draft',
+                    data:data,
+                    processData: false,
+                    type: 'POST',
+                    success: function(data){
+                        $('#msg').html('Save draft successfull');
+                        setTimeout(function(){$('#msg').html('');},3000);
+                    }
+                });
+            }
+            window.scrollTo(0, 0);
+
+        });
     });
 </script>
