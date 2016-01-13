@@ -199,7 +199,7 @@
                     <label>
                         <strong>第1位：商品画像（HiDPI）</strong>
                         <span>※HiDPI設定OFF時は入力不要。</span><br />
-                        <input type="file" class="image_frame_hipdi">
+                        <input type="file" class="image_frame_hipdi" data-rand="0">
                         <input type="hidden" name="mineral[frame][0][image_hipdi]" >
                     </label>
                 </p>
@@ -238,7 +238,7 @@
                 <label>
                     <strong>HiDPIサイズ</strong>
                     <input class="image_social_large" type="file" data-rand="0">
-                    <input name="mineral[social][0][image_temp_large]" type="hidden">
+                    <input name="mineral[social][0][image_temp_large]" type="hidden" value="">
                 </label>
             </p>
             <p>
@@ -365,6 +365,17 @@
             }
         });
 
+        $(document).on('change','.image_frame_hipdi',function(){
+            var rand = $(this).data('rand');
+            if ( this.files && this.files[0] ) {
+                var FR = new FileReader();
+                FR.onload = function(e) {
+                    $('input[name="mineral[frame]['+rand+'][image_hipdi]"]').val(e.target.result );
+                };
+                FR.readAsDataURL(this.files[0]);
+            }
+        });
+
         $(document).on('change','.image_social',function(){
             var rand = $(this).data('rand');
             if ( this.files && this.files[0] ) {
@@ -377,6 +388,7 @@
         });
 
         $(document).on('click','.image_social_large',function(){
+            
             var rand = $(this).data('rand');
             if ( this.files && this.files[0] ) {
                 var FR = new FileReader();
@@ -418,7 +430,7 @@
                 html+= '<p><label> <strong>第1位：商品画像</strong><input type="file" class="image_frame" data-rand="'+number+'">';
                 html+= '<input type="hidden" name="mineral[frame]['+number+'][image]" value="">';
                 html+= '</label></p><p><label><strong>第1位：商品画像（HiDPI）</strong><span>※HiDPI設定OFF時は入力不要。</span><br />';
-                html+= '<input type="file" class="image_frame_hipdi">';
+                html+= '<input type="file" class="image_frame_hipdi" data-rand="'+number+'" >';
                 html+= '<input type="hidden" name="mineral[frame]['+number+'][image_hipdi]" >';
                 html+= '</label></p><p><label><strong>第1位：商品説明</strong><span>※改行可</span><br />';
                 html+= '<textarea placeholder="第1位：商品説明" name="mineral[frame]['+number+'][product_description]"></textarea>';

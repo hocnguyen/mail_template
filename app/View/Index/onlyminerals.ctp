@@ -77,6 +77,7 @@
             }else{
                 alert('Please select file');
             }
+            return false;
         })
     })
 </script>

@@ -333,8 +333,18 @@
                 <tr>
                     <td class="p-description" valign="top" style="border-right: 1px solid #ccc; border-left: 1px solid #ccc;">
                         <div style="margin: 1em;">
-                            <p class="r-img" style="float: left; margin: 0 1em 1em 0; text-align: center;">
-                                <a href="<?php echo $frame['link_url'] ?>">
+                            <?php
+                            $link = '#';
+                            $data_img ='';
+                            $class= '';
+                            if (isset($data['hiDpi1'])) {
+                                $data_img = $frame['image_hipdi'];
+                                $class= 'image_product_frame';
+                            } else {
+                                $link = $frame['link_url'];
+                            } ?>
+                            <p class="r-img <?php echo $class ?>" data-zoom="<?php echo $data_img ?>" style="float: left; margin: 0 1em 1em 0; text-align: center;">
+                                <a href="<?php echo $link ?>">
                                     <img src="<?php echo $frame['image'] ?>" width="150" height="150" alt="第1位 アクアリフト BBクリーム" style="border: 1px solid #ccc; border-radius: 0.3rem;" />
                                 </a>
                             </p>
@@ -367,8 +377,18 @@
                     <tr>
                         <td class="p-description" valign="top" style="border-right: 1px solid #ccc; border-left: 1px solid #ccc;">
                             <div style="margin: 1em;">
-                                <p class="r-img" style="float: left; margin: 0 1em 1em 0; text-align: center;">
-                                    <a href="<?php echo  $frame['link_url'] ?>">
+                                <?php
+                                $link = '#';
+                                $data_img ='';
+                                $class= '';
+                                if (isset($data['hiDpi1'])) {
+                                    $data_img = $frame['image_hipdi'];
+                                    $class= 'image_product_frame';
+                                } else {
+                                    $link = $frame['link_url'];
+                                } ?>
+                                <p class="r-img <?php echo $class ?>" data-zoom="<?php echo $data_img ?>" style="float: left; margin: 0 1em 1em 0; text-align: center;">
+                                    <a href="<?php echo  $link ?>">
                                         <img src="<?php echo $frame['image'] ?>" width="150" height="150" alt="第1位 アクアリフト BBクリーム" style="border: 1px solid #ccc; border-radius: 0.3rem;" />
                                     </a>
                                 </p>
@@ -540,6 +560,13 @@ if (isset($data['hiDpi1']) && isset($data['hiDpi_image_temp'])) {  ?>
 <script type="text/javascript">
     $(document).ready(function(){
         $(document).on('click','.image_product',function(){
+            var data_img = $(this).data('zoom');
+            var img = '<img style="width: 100%" src="'+data_img+'">';
+            $('#imgProduct .modal-body').html(img);
+            $('#imgProduct').modal('show')
+        });
+
+        $(document).on('click','.image_product_frame',function(){
             var data_img = $(this).data('zoom');
             var img = '<img style="width: 100%" src="'+data_img+'">';
             $('#imgProduct .modal-body').html(img);
