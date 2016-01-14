@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <title>【送料無料のチャンス♪】しっとり色づく。秋のミネラルカラー</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -420,8 +421,20 @@
 <?php foreach ($data['social'] as $social) {
     if (!empty( $social['image_temp'])) {?>
         <tr>
-            <td align="center">
-                <a href="<?php echo $social['link'] ?>"><img src="<?php echo $social['image_temp'] ?>" alt="ヤーマンダイレクト公式Twitterアカウント" width="600" height="77" /></a>
+            <?php
+            $link = '#';
+            $data_img ='';
+            $class= '';
+            if (isset($data['hiDpi1'])) {
+                $data_img = $social['image_temp_large'];
+                $class= 'image_product_social';
+            } else {
+                $link = $social['link'];
+            } ?>
+            <td align="center" class="<?php echo $class ?>" data-zoom="<?php echo $data_img ?>">
+                <a href="<?php echo $link ?>">
+                    <img src="<?php echo $social['image_temp'] ?>" alt="ヤーマンダイレクト公式Twitterアカウント" width="600" height="77" />
+                </a>
             </td>
         </tr>
         <tr>
@@ -557,6 +570,7 @@ if (isset($data['hiDpi1']) && isset($data['hiDpi_image_temp'])) {  ?>
         </div>
     </div>
 </div>
+<input type="hidden" class="json" value='<?php echo json_encode($data) ?>'>
 <script type="text/javascript">
     $(document).ready(function(){
         $(document).on('click','.image_product',function(){
@@ -567,6 +581,13 @@ if (isset($data['hiDpi1']) && isset($data['hiDpi_image_temp'])) {  ?>
         });
 
         $(document).on('click','.image_product_frame',function(){
+            var data_img = $(this).data('zoom');
+            var img = '<img style="width: 100%" src="'+data_img+'">';
+            $('#imgProduct .modal-body').html(img);
+            $('#imgProduct').modal('show')
+        });
+
+        $(document).on('click','.image_product_social',function(){
             var data_img = $(this).data('zoom');
             var img = '<img style="width: 100%" src="'+data_img+'">';
             $('#imgProduct .modal-body').html(img);

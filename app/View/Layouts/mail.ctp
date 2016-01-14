@@ -19,6 +19,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>ONLY MINERALS メールマガジン生成システム</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $this->webroot ?>css/normalize.css" media="all">
         <link rel="stylesheet" type="text/css" href="<?php echo $this->webroot ?>css/formhack.css" media="all">
         <link rel="stylesheet" type="text/css" href="<?php echo $this->webroot ?>css/style.css" media="all">

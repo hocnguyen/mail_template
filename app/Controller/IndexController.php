@@ -252,10 +252,7 @@ class IndexController extends AppController {
 			$contents  =  file_get_contents($_GET['path']);
 			$regexp="/<input type=\"hidden\" class=\"json\" value=\'(.*?)\'>/s";
 			preg_match($regexp,$contents,$match);
-			var_dump($match[1]);
-			$regexp = "/<div class=\"json\" style=\"display:none\">(.+?)<\/div>/";
-			preg_match($regexp,$contents,$match);
-			var_dump($match[1]);
+			echo $match[1];
 			     
 		}
     }
@@ -277,6 +274,69 @@ class IndexController extends AppController {
 		
         fwrite($fileHandle, $view);
         fclose($fileHandle);
+
+    }
+
+    /**
+     * Action save draft
+     *
+     * @return	void
+     * @author:	UTC.HocNV
+     * @date:	2016/01/06
+     */
+    public function save_draft(){
+        $data = $this->request->data['mineral'];
+        $folder = 'html/'.TYPE_OM.'/一時保存'.$data['file_name'];
+        if(is_dir($folder))
+        {
+            // override file name if exist file
+            $filename = $folder.'/一時保存'.$data['title'].$data['file_name'].'.html';
+            if (file_exists($filename)) {
+                // Delete old file and create new file
+                unlink($filename);
+                $this->generate_html($filename,$data,TYPE_OM);
+            } else {
+                $this->generate_html($filename,$data,TYPE_OM);
+            }
+        }
+        else
+        {
+            mkdir($folder);
+            $filename = $folder.'/一時保存'.$data['title'].$data['file_name'].'.html';
+            $this->generate_html($filename,$data,TYPE_OM);
+        }
+    }
+
+    /**
+     * Action save draft
+     *
+     * @return	void
+     * @author:	UTC.HocNV
+     * @date:	2016/01/06
+     */
+    public function preview(){
+        $this->layout = '';
+        $data = $this->request->data['mineral'];
+        $this->set('data',$data);
+        $this->render('preview_onlyminerals');
+    }
+    /**
+     * Action copy_template
+     *
+     * @return	void
+     * @author:	UTC.HocNV
+     * @date:	2016/01/06
+     */
+    public function copy_template(){
+        $this->layout = 'mail';
+        if(isset($_GET['path']) && (trim($_GET['path']) != '')){
+            $contents  =  file_get_contents($_GET['path']);
+            $regexp="/<input type=\"hidden\" class=\"json\" value=\'(.*?)\'>/s";
+            preg_match($regexp,$contents,$match);
+            $data = json_decode($match[1],true);
+            $this->set('data',$data);
+            $this->render('copy_onlyminerals');
+        }
 
     }
 

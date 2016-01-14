@@ -1,3 +1,5 @@
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <article>
 
     <!-- 新規作成 -->
@@ -66,18 +68,29 @@
         $('#read-file').click(function(){
             var copy_yahman_mail = $("input[name=copy_yahman_mail]:checked").val();
             if(typeof copy_yahman_mail != 'undefined'){
-                $.ajax({
-                    type: 'GET',
-                    async: false,
-                    url: "index/read_html?path="+ copy_yahman_mail,
-                    success: function(result){
-                        console.log(result);
-                    }
-                });
+                window.open('/index/copy_template?path='+ copy_yahman_mail, '_blank');
             }else{
-                alert('Please select file');
+                $('#warning').modal('show');
             }
             return false;
-        })
+        });
+
     })
 </script>
+
+<!-- Modal confirm  -->
+<div class="modal fade" id="warning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Warning</h4>
+            </div>
+            <div class="modal-body">
+                <p>コピーしたいメルマガのチェックボックスにチェック入れてください。</p>
+            </div>
+            <div class="modal-footer">
+                <div  class="btn btn-default" data-dismiss="modal">はい</div>
+            </div>
+        </div>
+    </div>
+</div>
